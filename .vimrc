@@ -5,7 +5,6 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
@@ -25,6 +24,7 @@ Plugin 'othree/html5.vim' " HTML5 omnicomplete and syntax
 Plugin 'cakebaker/scss-syntax.vim' " Vim syntax file for scss
 Plugin 'hail2u/vim-css3-syntax' " CSS3 syntax support
 Plugin 'Valloric/YouCompleteMe' " A code-completion engine for Vim
+Plugin 'ekalinin/Dockerfile.vim' " Vim syntax file & snippets for Docker's Dockerfile
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
