@@ -20,6 +20,7 @@ Plugin 'scrooloose/syntastic' " Syntax checking hacks for vim
 Plugin 'elzr/vim-json' " a better JSON for Vim
 Plugin 'othree/yajs.vim' " Yet Another JavaScript Syntax for Vim
 Plugin 'othree/javascript-libraries-syntax.vim' " Syntax for JavaScript libraries
+Plugin 'kchmck/vim-coffee-script' " CoffeeScript support for vim
 Plugin 'othree/html5.vim' " HTML5 omnicomplete and syntax
 Plugin 'cakebaker/scss-syntax.vim' " Vim syntax file for scss
 Plugin 'hail2u/vim-css3-syntax' " CSS3 syntax support
