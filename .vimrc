@@ -11,6 +11,7 @@ Plugin 'VundleVim/Vundle.vim'
 " List Plugins
 Plugin 'goatslacker/mango.vim' " Theme Mango
 Plugin 'bling/vim-airline' " tatus/tabline for vim
+Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
 Plugin 'scrooloose/nerdtree' " project file manager
 Plugin 'tpope/vim-fugitive' " git wrapper
 Plugin 'airblade/vim-gitgutter' " vim plugin which shows a git diff in the gutter and stages/reverts hunks
