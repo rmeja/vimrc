@@ -67,7 +67,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " Coding style
-set ts=2 sw=2 noet
+set ts=2 sw=2 et
 
 " Configuration indentline
 let g:indentLine_char = '|'
