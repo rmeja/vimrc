@@ -28,6 +28,7 @@ Plugin 'cakebaker/scss-syntax.vim' " Vim syntax file for scss
 Plugin 'hail2u/vim-css3-syntax' " CSS3 syntax support
 Plugin 'Valloric/YouCompleteMe' " A code-completion engine for Vim
 Plugin 'ekalinin/Dockerfile.vim' " Vim syntax file & snippets for Docker's Dockerfile
+Plugin 'Yggdroot/indentLine' " A vim plugin to display the indention levels with thin vertical lines
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -42,7 +43,7 @@ set t_Co=256
 " Colorscheme
 set background=dark
 syntax on
-color mango
+colorscheme mango
 
 " Configuration Airline plugin
 let g:airline#extensions#tabline#enabled=1
@@ -67,3 +68,6 @@ let g:syntastic_check_on_wq = 0
 
 " Coding style
 set ts=2 sw=2 noet
+
+" Configuration indentline
+let g:indentLine_char = '|'
