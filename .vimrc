@@ -18,7 +18,6 @@ Plugin 'airblade/vim-gitgutter' " vim plugin which shows a git diff in the gutte
 Plugin 'scrooloose/nerdcommenter' " vim plugin for intensely orgasmic commenting
 Plugin 'bronson/vim-trailing-whitespace' " Highlights trailing whitespace in red and provides :FixWhitespace to fix it
 Plugin 'scrooloose/syntastic' " Syntax checking hacks for vim
-Plugin 'elzr/vim-json' " a better JSON for Vim
 Plugin 'othree/yajs.vim' " Yet Another JavaScript Syntax for Vim
 Plugin 'othree/javascript-libraries-syntax.vim' " Syntax for JavaScript libraries
 Plugin 'kchmck/vim-coffee-script' " CoffeeScript support for vim
