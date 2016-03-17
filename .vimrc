@@ -48,6 +48,9 @@ set background=dark
 syntax on
 colorscheme mango
 
+" Change highlight bracket
+hi MatchParen cterm=underline ctermbg=none ctermfg=none
+
 " Configuration Airline plugin
 let g:airline#extensions#tabline#enabled=1
 let airline_powerline_fonts=1
