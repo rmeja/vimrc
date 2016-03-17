@@ -28,6 +28,7 @@ Plugin 'hail2u/vim-css3-syntax' " CSS3 syntax support
 Plugin 'Valloric/YouCompleteMe' " A code-completion engine for Vim
 Plugin 'ekalinin/Dockerfile.vim' " Vim syntax file & snippets for Docker's Dockerfile
 Plugin 'Yggdroot/indentLine' " A vim plugin to display the indention levels with thin vertical lines
+Plugin 'jiangmiao/auto-pairs' " Vim plugin, insert or delete brackets, parens, quotes in pair
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
