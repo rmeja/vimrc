@@ -9,6 +9,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " List Plugins
+Plugin 'altercation/vim-colors-solarized' " Theme solarized
 Plugin 'goatslacker/mango.vim' " Theme Mango
 Plugin 'bling/vim-airline' " tatus/tabline for vim
 Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
@@ -29,6 +30,7 @@ Plugin 'Valloric/YouCompleteMe' " A code-completion engine for Vim
 Plugin 'ekalinin/Dockerfile.vim' " Vim syntax file & snippets for Docker's Dockerfile
 Plugin 'Yggdroot/indentLine' " A vim plugin to display the indention levels with thin vertical lines
 Plugin 'jiangmiao/auto-pairs' " Vim plugin, insert or delete brackets, parens, quotes in pair
+Plugin 'tpope/vim-markdown' " Vim Markdown runtime files
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -46,7 +48,7 @@ set t_Co=256
 " Colorscheme
 set background=dark
 syntax on
-colorscheme mango
+colorscheme solarized
 
 " Change highlight bracket
 hi MatchParen cterm=underline ctermbg=none ctermfg=none
