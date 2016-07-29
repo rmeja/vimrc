@@ -48,7 +48,7 @@ set t_Co=256
 " Colorscheme
 set background=dark
 syntax on
-colorscheme solarized
+colorscheme mango
 
 " Change highlight bracket
 hi MatchParen cterm=underline ctermbg=none ctermfg=none
